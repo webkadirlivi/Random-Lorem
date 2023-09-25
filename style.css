@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    background: wheat;
+}
+
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.center h2 {
+    font-size: 30px;
+}
+
+.lorem-form {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.lorem-form label {
+    font-size: 25px;
+}
+
+.lorem-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(86, 137, 167, 0.295);
+    font-size: 14px;
+}
+
+.lorem-text {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
